@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/site.webmanifest">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/proprieties.css">
+    <link rel="stylesheet" href="./assets/css/KeyFrames.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <title>Portfólio</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="hamburguer" id="Close-menu">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+            <span>Close</span>
+        </div>
+
+        <header>
+            <div class="img-wrapper">
+                <img src="./assets/images/backgroundimg.jpg" alt="">
+            </div>
+            <div class="banner">    
+                <h1 class="title-style">Front-End</h1>  
+                <p>Gabriel Politano</p>
+                <button class="ButtonCustom" id="button-banner"><a href="https://www.linkedin.com/in/gabriel-politano-800a64278">Discover</a></button>
+            </div> 
+
+        </header>
+
+        <aside class="sidebar">
+            <nav>
+                <ul class="menu">
+                    <li id="menu-1" class="menu-item"><a id="Close-menu" href="#" class="menu-link">home</a></li>
+                    <li id="menu-2" class="menu-item"><a id="Close-menu" href="#conhecimentos" class="menu-link">skills</a></li>
+                    <li id="menu-3" class="menu-item"><a id="Close-menu" href="#projetos" class="menu-link">projects</a></li>
+                    <li id="menu-4" class="menu-item"><a id="Close-menu" href="#contato" class="menu-link">contact</a></li>
+                    <li id="menu-5" class="menu-item"><a id="Close-menu" href="#orcamento" class="menu-link">Quote</a></li>
+                </ul>
+            </nav>
+            <div class="social-media">
+                <a id="social-1" href="https://github.com/gabrielcpolitano"><i class="fab fa-github"></i></a>
+                <a id="social-3" href="https://www.linkedin.com/in/gabriel-politano-800a64278"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </aside>
+
+        <section class="sessao-conhecimentos" id="conhecimentos">
+            <div class="sessao-header">
+                <h1 class="title-style">skills</h1>
+            </div>
+            <div class="conhecimentos">
+                <div class="conhecimento" data-anime="right">
+                    <div class="conhecimento-header">
+                        <i class="fas fa-database"></i>
+                        <h3>MongoDB</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Intermediate</p>
+                    </div>
+                </div>
+                <div class="conhecimento" data-anime="left">
+                    <div class="conhecimento-header">
+                        <i class="fas fa-box"></i>
+                        <h3>Docker</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Intermediate</p>
+                    </div>
+                </div>
+                <div class="conhecimento" data-anime="left">
+                    <div class="conhecimento-header">
+                        <i class="fas fa-vial"></i>
+                        <h3>Jest</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Intermediate</p>
+                    </div>
+                </div>
+                <div class="conhecimento" data-anime="left">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-sass"></i>
+                        <h3>SASS</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Expert</p>
+                    </div>
+                </div>
+                <div class="conhecimento" data-anime="right">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-react"></i>
+                        <h3>React</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Expert</p>
+                    </div>
+                </div>
+                <div class="conhecimento" data-anime="right">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-bootstrap"></i>
+                        <h3>Bootstrap</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Expert </p>
+                    </div>
+                </div>
+                <div class="imagemFundo">
+                    <img src="./media/profile.png" alt="">               
+                </div>
+        </section>
+
+        <section class="sessao-projetos" id="projetos">
+            <div class="projetos-header">
+                <h1>projects</h1>
+            </div>
+            <div class="cards">
+                <div class="card" data-anime="up">
+                    <div class="card-img-wrapper">
+                        <img src="./media/proj1.jpg" alt="">
+                    </div>
+                    <div class="background">
+                        <div class="card-info">
+                            <h2>Calculator</h2>
+                            <h3>HTML, CSS, JavaScript</h3>
+                            <p>Simple Calculator is a web application that allows you to perform basic calculations quickly and easily directly in your browser.</p>
+                            <a href="https://github.com/gabrielcpolitano/Calculadora"><button class="ButtonSend">Check out</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-anime="up">
+                    <div class="card-img-wrapper">
+                        <img src="./media/proj4.jpg" alt="">
+                    </div>
+                    <div class="background">
+                        <div class="card-info">
+                            <h2>Projeto 2</h2>
+                            <h3>React, Bootstrap, SASS</h3>
+                            <p>Usar API, Jest, Framer-motion, React-query, Next.js</p>
+                            <button class="ButtonSend">Saiba mais</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-anime="up">
+                    <div class="card-img-wrapper">
+                        <img src="./media/proj4.jpg" alt="">
+                    </div>
+                    <div class="background">
+                        <div class="card-info">
+                            <h2>Projeto 2</h2>
+                            <h3>React, Bootstrap, SASS</h3>
+                            <p>Usar API, Jest, Framer-motion, React-query, Next.js</p>
+                            <button class="ButtonSend">Saiba mais</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-anime="up">
+                    <div class="card-img-wrapper">
+                        <img src="./media/proj4.jpg" alt="">
+                    </div>
+                    <div class="background">
+                        <div class="card-info">
+                            <h2>Projeto 2</h2>
+                            <h3>React, Bootstrap, SASS</h3>
+                            <p>Usar API, Jest, Framer-motion, React-query, Next.js</p>
+                            <button class="ButtonSend">Saiba mais</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-anime="up">
+                    <div class="card-img-wrapper">
+                        <img src="./media/proj3.jpg" alt="">
+                    </div>
+                    <div class="background">
+                        <div class="card-info">
+                            <h2>projeto3</h2>
+                            <h3>Vue.js, Bootstrap, SASS</h3>
+                            <p>Usar API, Jest, Framer-motion, React-query, Next.js</p>
+                            <button class="ButtonSend">Saiba mais</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-anime="up">
+                    <div class="card-img-wrapper">
+                        <img src="./media/proj3.jpg" alt="">
+                    </div>
+                    <div class="background">
+                        <div class="card-info">
+                            <h2>projeto4</h2>
+                            <h3>Vue.js, Bootstrap, SASS</h3>
+                            <p>Usar API, Jest, Framer-motion, React-query, Next.js</p>
+                            <button class="ButtonSend">Saiba mais</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-anime="up">
+                    <div class="card-img-wrapper">
+                        <img src="./media/proj5.jpg" alt="">
+                    </div>
+                    <div class="background">
+                        <div class="card-info">
+                            <h2>projeto4</h2>
+                            <h3>Angular, Bootstrap, SASS</h3>
+                            <ul>
+                                <li></li>
+                            </ul>
+                            <button class="ButtonSend">Saiba mais</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-contact" id="contato">
+            <div class="contact-wrapper" data-anime="up">
+                <div class="contact-left"></div>
+                <div class="contact-right">
+                    <h1>contact</h1>
+                    <form class="form-contact">
+                        <div class="input-group">
+                            <input id="nome" type="text" class="field">
+                            <label for="nome" class="field-label">Name</label>
+                        </div>
+                        <div class="input-group">
+                            <input id="email" type="email" class="field">
+                            <label for="email" class="field-label">Email</label>
+                        </div>
+                        <div class="input-group">
+                            <textarea id="mensage" class="field"></textarea>
+                            <label for="mensage" class="field-label">Message</label>
+                        </div>
+                        <button class="ButtonCustom" type="send">Send</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-budget" id="orcamento">
+            <div class="box"></div>
+            <div class="budget-wrapper">
+                <div class="header-budget" data-anime="left">
+                    <h1>Get Your Quote</h1>
+                </div>
+                <form class="form-budget">
+                    <div class="qtde-page" data-anime="right">
+                        <label for="qtde">Number of Pages:</label>
+                        <input type="number" name="qtde" id="qtde" min="1" max="100"><br/><br/>
+                        <label for="js">I need a JS script:</label>
+                        <input class="check" checked="" type="checkbox" name="js" id="js"><br/><br/><br/>
+                    </div>
+                    <div class="group-layout" data-anime="up">
+                        <label>Layout</label>
+                        <div>
+                            <input type="radio" name="layout" id="layout-sim">
+                            <label for="layout-sim">YES, I NEED A LAYOUT</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="layout" id="layout-nao">
+                            <label for="layout-nao">NO, I DON'T NEED A LAYOUT</label>
+                        </div><br/>
+                        <div>
+                            <label for="prazo">Completion Deadline</label>
+                            <input type="range" name="prazo" id="prazo" min="1" max="10">
+                        </div>
+                        <div class="btn">
+                            <button type="submit" id="envio-form-orc" class="ButtonCustom">send</button>
+                        </div>
+                        <label id="preco">$ 0,00</label>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-container">
+                <div class="footer-about">
+                    <h3>About Me</h3>
+                    <p>Hi, I'm Gabriel Politano, a passionate front-end developer. Welcome to my portfolio. Feel free to explore my projects and get in touch!</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#conhecimentos">Skills</a></li>
+                        <li><a href="#projetos">Projects</a></li>
+                        <li><a href="#contato">Contact</a></li>
+                        <li><a href="#orcamento">Quote</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Me</h3>
+                    <div class="social-icons">
+                        <a href="https://github.com/gabrielcpolitano"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/gabriel-politano-800a64278"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact</h3>
+                    <p>Email: <a href="mailto:gabriel.cpolitano@gmail.com">gabriel.cpolitano@gmail.com</a></p>
+                    <p>Phone: (17) 99649-0503</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Gabriel Politano. All rights reserved.</p>
+            </div>
+        </footer>
+        
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
