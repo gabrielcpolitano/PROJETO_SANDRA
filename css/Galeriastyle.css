@@ -148,6 +148,7 @@
     background: none;
     border-radius: 7px;
     margin-bottom: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); 
 }
 .card:hover{
     z-index: 1;
@@ -169,7 +170,6 @@
     background: #12c2e9;
     background: -webkit-linear-gradient(to bottom, #c471ed, #ff91f2, #ffb6f6);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #c471ed, #ff91f2, #ffb6f6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
     mix-blend-mode: multiply;
     transition: all 0.5s ease;
     border-radius: 7px;
