@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cupom de Desconto</title>
+    <link rel="stylesheet" href="css/cumpom.css">
+    <link rel="shortcut icon" href="imagens/favicon-16x16.png" type="image/x-icon">
+</head>
+<body>
+    <div class="coupon-card">
+        <h2>Cupom de Desconto</h2>
+        <p class="discount">10% de desconto</p>
+        <p class="coupon-number" id="coupon-number"></p>
+        <button onclick="redirect()">Usar Cupom</button>
+    </div>
+
+    <script>
+        // Gera um número aleatório para o cupom
+        function generateRandomNumber() {
+            return Math.floor(100000 + Math.random() * 900000);
+        }
+
+        // Define o número do cupom no elemento HTML
+        const couponNumber = generateRandomNumber();
+        document.getElementById('coupon-number').innerText = "Cupom: " + couponNumber;
+
+        // Função para redirecionar o usuário ao clicar no botão
+        function redirect() {
+            const phoneNumber = "5517996490503";  // Número do WhatsApp com código do país e DDD
+            const message = `Olá, gostaria de fazer um pedido usando meu cupom de desconto " ${couponNumber} "`;
+            const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+            window.location.href = url;
+        }
+    </script>
+</body>
+</html>
