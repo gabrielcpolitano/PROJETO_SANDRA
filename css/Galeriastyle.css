@@ -148,7 +148,7 @@
     background: none;
     border-radius: 7px;
     margin-bottom: 20px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); 
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, ); 
 }
 .card:hover{
     z-index: 1;
@@ -168,8 +168,8 @@
     height: 100%;
     z-index: 1;
     background: #12c2e9;
-    background: -webkit-linear-gradient(to bottom, #c471ed, #ff91f2, #ffb6f6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #c471ed, #ff91f2, #ffb6f6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to bottom, #ffffff, #fbd9f9, #9c3096);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ffffff, #fbd9f9, #9c3096); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     mix-blend-mode: multiply;
     transition: all 0.5s ease;
     border-radius: 7px;
@@ -191,18 +191,22 @@
 }
 .card__title{
     padding-bottom: 10px;
-    color: #fff;
+    color: #3e005b;
     transition: all 0.5s ease;
     transform: translateY(300px);
+    font-weight: 700;
 }
 .card:hover .card__title{
     transform: translateY(0);
     transition-delay: 0.4s;
 }
 .card__text{
-    color: #fff;
+    color: #ffffff;
     transform: translateY(300px);
     transition: all 0.5s ease;
+    position: absolute;
+    bottom: 0;
+    font-weight: 700;
 }
 .card:hover .card__text{
     transform: translateY(0);
