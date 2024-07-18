@@ -1,41 +1,48 @@
 /* Gallery Styling */
 
-.galery {
+.galery{
   padding: 100px 0;
   margin: 0 auto;
-  text-align: center; /* Center align the content */
 }
-.galery__title {
+
+.galery h2{
+  text-align: center;
+}
+
+.galery__title{
+  text-align: center;
   font-size: 36px;
   padding-bottom: 50px;
   color: crimson;
 }
-.cards {
+.cards{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* Center the cards */
-  gap: 20px; /* Add some gap between the cards */
+  justify-content: space-between;
+  align-items: center;
 }
-.card {
-  width: 400px; /* Increase the width of the cards */
+.card{
+  min-width: 375px;
   transition: all 0.5s ease;
   position: relative;
   overflow: hidden;
   background: none;
   border-radius: 7px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+  margin-bottom: 20px;
 }
-.card:hover {
+.card:hover{
   z-index: 1;
   transform: scale(1.1);
   box-shadow: 10px 20px 40px #000;
 }
-.card__img {
-  width: 400px; /* Match the increased width */
+.card__img{
+  width: 375px;
   height: 250px;
   border-radius: 7px;
   object-fit: cover;
 }
-.card__image::before {
+.card__image::before{
   content: '';
   position: absolute;
   top: 0;
@@ -44,19 +51,20 @@
   height: 100%;
   z-index: 1;
   background: #12c2e9;
-  background: -webkit-linear-gradient(to bottom, #c471ed, #e771ed, #ff9fea);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #c471ed, #ed71d8, #ffa9dee7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to bottom, #f64fe0, #ff88dd, #ffbbef);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #f64fe0, #ff88dd, #ffbbef); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   mix-blend-mode: multiply;
   transition: all 0.5s ease;
   border-radius: 7px;
   opacity: 0;
 }
-.card:hover .card__image::before {
+.card:hover .card__image::before{
   opacity: 1;
   transition: all 0.5s ease;
 }
 
-.card__content {
+.card__content{
   position: absolute;
   top: 0;
   left: 0;
@@ -65,26 +73,26 @@
   z-index: 2;
   padding: 10px;
 }
-.card__title {
+.card__title{
   padding-bottom: 10px;
   color: #fff;
   transition: all 0.5s ease;
   transform: translateY(300px);
 }
-.card:hover .card__title {
+.card:hover .card__title{
   transform: translateY(0);
   transition-delay: 0.4s;
 }
-.card__text {
+.card__text{
   color: #fff;
   transform: translateY(300px);
   transition: all 0.5s ease;
 }
-.card:hover .card__text {
+.card:hover .card__text{
   transform: translateY(0);
   transition-delay: 0.5s;
 }
-.card__add {
+.card__add{
   color: red;
   padding: 10px 10px;
   width: 100%;
@@ -93,15 +101,15 @@
   transform: translateY(100px);
   transition: all 0.5s ease;
 }
-.card__add:hover {
+.card__add:hover{
   text-decoration: underline;
 }
-.card:hover .card__add {
+.card:hover .card__add{
   transform: translateY(0);
   transition-delay: 0.7s;
 }
 
-.card-icons {
+.card-icons{
   position: absolute;
   left: 0;
   top: 0;
@@ -111,7 +119,7 @@
   justify-content: flex-end;
   align-items: flex-end;
 }
-.card-icons i {
+.card-icons i{
   cursor: pointer;
   font-size: 22px;
   color: crimson;
@@ -119,9 +127,10 @@
   transform: translateY(100px);
   transition: all 0.5s ease;
 }
-.card:hover .card-icons i {
+.card:hover .card-icons i{
   transform: translateY(0);
   transition-delay: 0.6s;
 }
+
 
 /* Gal-3d Styling */
