@@ -1,7 +1,7 @@
 .botao-menu a{
   background-color: rgb(255, 122, 246);
   margin: 10px;
-  padding: 5px 35px;
+  padding: 8px 25px;
   border-radius: 4px;
   color: rgb(0, 0, 0); /* Certifique-se de que a cor inicial do texto está definida */
   text-decoration: none;
@@ -10,4 +10,8 @@
 .botao-menu a:hover {
   background-color: rgb(177, 21, 255);
   color: aliceblue !important; /* Use !important para garantir que a cor do texto seja aplicada */
+}
+
+.botao-menu.localizacao a {
+  padding: 8px 15px;
 }
