@@ -83,3 +83,9 @@ h2 {
 p {
   font-weight: 700;
 }
+
+.info-section {
+  background-color: white;
+  padding: 10px;
+  border-radius: 7px;
+}
