@@ -1,15 +1,23 @@
-.botao-menu a{
-  background-color: rgb(255, 122, 246);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.botao-menu a {
+  background-color: rgb(255, 151, 255); /* Cor de fundo neon rosa */
   margin: 10px;
   padding: 8px 25px;
   border-radius: 4px;
   color: rgb(0, 0, 0); /* Certifique-se de que a cor inicial do texto está definida */
   text-decoration: none;
+  box-shadow: 0 8px 15px rgba(255, 0, 255, 0.7); /* Sombra mais evidente */
+  transition: all 0.3s ease; /* Adiciona transição para suavizar os efeitos */
+  font-family: 'Poppins', sans-serif; /* Adiciona a fonte moderna */
+  font-weight: 600; /* Define o peso da fonte */
 }
 
 .botao-menu a:hover {
-  background-color: rgb(177, 21, 255);
+  background-color: rgb(204, 0, 204); /* Cor de fundo neon rosa mais escura no hover */
   color: aliceblue !important; /* Use !important para garantir que a cor do texto seja aplicada */
+  transform: translateY(-5px); /* Move o botão mais para cima no hover */
+  box-shadow: 0 15px 30px rgba(204, 0, 204, 0.9); /* Aumenta a sombra para um efeito 3D mais aparente */
 }
 
 .botao-menu.localizacao a {
