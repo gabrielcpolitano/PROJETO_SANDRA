@@ -46,7 +46,7 @@
 
 
 /* CSS */
-button{
+button.botao{
   align-items: center;
   appearance: none;
   background-image: radial-gradient(100% 100% at 100% 0, #f15aff 0, #ff54e0 100%);
@@ -77,17 +77,17 @@ button{
   font-size: 18px;
 }
 
-.button:focus {
+button.botao:focus {
   box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #7a0090 0 -3px 0 inset;
   transform: translateY(-2px);
 }
 
-button:hover {
+button.botao:hover {
   box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #7a0090 0 -3px 0 inset;
   transform: translateY(-2px);
 }
 
-button:active {
+button.botao:active {
   box-shadow: #d03ce0 0 3px 7px inset;
   transform: translateY(2px);
 }
@@ -109,9 +109,13 @@ button:active {
   padding: 10px;
 }
 
-.info {
-  text-align: center;
-  color: #45ed24;
-  font-family: 'Viga', serif;
-  font-size: 25px;
+.receita-container{
+  display: flex;
+  justify-content: center; /* Centraliza os botões horizontalmente */
+  padding: 20px;
+}
+
+
+button.recheios{
+  background-image: radial-gradient(100% 100% at 100% 0, #7d0099 0, #6d048a 100%);
 }
