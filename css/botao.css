@@ -115,6 +115,12 @@ button.botao:active {
   padding: 20px;
 }
 
+.info {
+  text-align: center;
+  color: #45ed24;
+  font-family: 'Viga', serif;
+  font-size: 25px;
+}
 
 button.recheios{
   background-image: radial-gradient(100% 100% at 100% 0, #7d0099 0, #6d048a 100%);
