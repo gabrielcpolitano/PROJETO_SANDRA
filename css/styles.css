@@ -54,18 +54,6 @@ header .right-side .nav-link-wrapper a{
   letter-spacing: 0.5px;
 }
 
-.container .left-side a{
-  display: inline-block;
-  background: green;
-  padding: 12px 18px 12px 18px;
-  text-decoration: none;
-  border-radius: 25px;
-  color: white;
-  margin-top: 15px;
-  font-size: 17px;
-  font-weight: bold;
-}
-
 .container .right-side{
   text-align: center;
   margin-top: 60px;
@@ -166,17 +154,6 @@ header .right-side .nav-link-wrapper a{
     letter-spacing: 0.5px;
   }
 
-  .container .left-side a{
-    display: inline-block;
-    background: green;
-    padding: 12px 18px 12px 18px;
-    text-decoration: none;
-    border-radius: 25px;
-    color: white;
-    margin-top: 15px;
-    font-size: 17px;
-    font-weight: bold;
-  }
 
   .container .right-side{
     flex: 1;
@@ -269,17 +246,6 @@ header .right-side .nav-link-wrapper a{
     letter-spacing: 0.5px;
   }
 
-  .container .left-side a{
-    display: inline-block;
-    background: green;
-    padding: 12px 18px 12px 18px;
-    text-decoration: none;
-    border-radius: 25px;
-    color: white;
-    margin-top: 15px;
-    font-size: 16.2px;
-    font-weight: bold;
-  }
 }
 
 @media only screen and (max-width: 404px){
