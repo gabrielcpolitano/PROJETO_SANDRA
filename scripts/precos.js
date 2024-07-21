@@ -11,13 +11,13 @@ function showInfo(weight) {
           info = '<span class="pink">Serve 20 a 30 pessoas</span><br>R$ 160 reais';
           break;
       case '3kg':
-          info = '<span class="pink">Serve 30 a 40 pessoas</span><br>R$ 250 reais';
+          info = '<span class="pink">Serve 30 a 40 pessoas</span><br>R$ 240 reais';
           break;
       case '4kg':
-          info = '<span class="pink">Serve 40 a 60 pessoas</span><br>R$ 350 reais';
+          info = '<span class="pink">Serve 40 a 60 pessoas</span><br>R$ 320 reais';
           break;
       case '5kg':
-          info = '<span class="pink">Serve 70 a 90 pessoas</span><br>R$ 450 reais';
+          info = '<span class="pink">Serve 70 a 90 pessoas</span><br>R$ 400 reais';
           break;
       default:
           info = '';
