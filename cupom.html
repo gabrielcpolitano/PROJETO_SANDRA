@@ -3,10 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/android-chrome-512x512.png">
     <title>Cupom de Desconto</title>
     <link rel="stylesheet" href="css/cumpom.css">
 </head>
 <body>
+
+    <div class="loading" id="loading">
+      
+      <h1>Gerando Cupom</h1>
+      <br>
+      <div class="emoji-container" id="emoji-container"></div>
+    
+    </div>
+    
     <div class="coupon-card">
         <h2>Cupom de Desconto</h2>
         <p class="discount">10% de desconto</p>
@@ -14,23 +26,6 @@
         <button onclick="redirect()">Usar Cupom</button>
     </div>
 
-    <script>
-        // Gera um número aleatório para o cupom
-        function generateRandomNumber() {
-            return Math.floor(100000 + Math.random() * 900000);
-        }
-
-        // Define o número do cupom no elemento HTML
-        const couponNumber = generateRandomNumber();
-        document.getElementById('coupon-number').innerText = "Cupom: " + couponNumber;
-
-        // Função para redirecionar o usuário ao clicar no botão
-        function redirect() {
-            const phoneNumber = "5516997677955";  // Número do WhatsApp com código do país e DDD
-            const message = `Oi Sandra, gostaria de fazer um pedido usando meu cupom de desconto de 10% [ *${couponNumber}* ]`;
-            const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
-            window.location.href = url;
-        }
-    </script>
+    <script src="/scripts/cupom.js"></script>
 </body>
 </html>
