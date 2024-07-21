@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="css/Galeriastyle.css">
     <link rel="stylesheet" href="css/Galeriamedia.css">
     <link rel="stylesheet" href="css/botao.css">
+    <link rel="stylesheet" href="css/footer.css">
   </head>
   <body>
 
@@ -52,11 +53,6 @@
       </div>
       <div class="right-side">
         <img src="img/img1.png" alt="" class="new">
-        <div class="box">
-          <a href="#"> <img class = "facebook" src="img/facebook.png" alt=""></a>
-          <a href="#"> <img src="img/instagram.png" alt=""></a>
-          <a href="#"> <img src="img/twitter.png" alt=""></a>
-        </div>
       </div>
     </div>
 
@@ -142,42 +138,44 @@
               <div class="col-12 text-center col-md-6">
                   <h3>Bolos de Aniversário</h3>
                   <p>Comemore seus momentos especiais com nossos bolos de aniversário: cada fatia é uma celebração de sabor, carinho e tradição que torna cada festa inesquecível.</p>
-                  <button class="btn text-dark rounded-pill border-black p-md-2 px-4">Veja mais</button>
+                  <a href="#aniversario"><button class="btn text-dark rounded-pill border-black p-md-2 px-4">Veja mais</button></a>
               </div>
           </div>
       </section>
 
-      <section class="container-fluid primary-color section-3 mb-4">
-          <div class="row">
-              <div class="col-12 col-md-6 order-md-2 p-0">
-                  <img src="imagens/featured-drinks.jpg" alt="Drinks em destaque da Starbucks"
-                      class="img-fluid w-100">
-              </div>
-              <div
-                  class="col-12 col-md-6 d-flex justify-content-center align-items-center flex-column text-center p-4">
-                  <h3>Bolos para seu Café</h3>
-                  <p>Transforme seu café da tarde em um momento inesquecível com nossos bolos caseiros: um pedaço de puro carinho que derrete na boca e aquece o coração.</p>
-                  <button class="btn text-dark rounded-pill border-black py-1 mb-2">Veja mais</button>
-              </div>
-          </div>
-      </section>
-
+      
       <section class="container-fluid primary-color section-4 mb-4">
-          <div class="row">
-              <div class="col-12 col-md-6 p-0 d-flex align-items-center">
-                  <img src="imagens/donate.jpg" alt="Drinks em destaque da Starbucks" class="img-fluid w-100">
-              </div>
-              <div
-                  class="col-12 col-md-6 d-flex justify-content-center align-items-center flex-column text-center p-4">
-                  <h3>Doces</h3>
-                  <p>Descubra o prazer irresistível dos nossos doces artesanais: cada mordida é uma viagem ao paraíso do sabor.</p>
-                  <button class="btn text-dark rounded-pill border-black py-1 mb-2 mt-3">Veja mais</button>
-              </div>
+        <div class="row">
+          <div class="col-12 col-md-6 p-0 d-flex align-items-center">
+            <img src="imagens/donate.jpg" alt="Drinks em destaque da Starbucks" class="img-fluid w-100">
           </div>
-      </section>
-  
-      <section class="galery" id="gallery">
-        <h2><span class = "pink">Bolos de Aniversário</span></h2>
+          <div
+          class="col-12 col-md-6 d-flex justify-content-center align-items-center flex-column text-center p-4">
+          <h3>Doces</h3>
+          <p>Descubra o prazer irresistível dos nossos doces artesanais: cada mordida é uma viagem ao paraíso do sabor.</p>
+          <a href="#doces"><button class="btn text-dark rounded-pill border-black py-1 mb-2 mt-3">Veja mais</button></a>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="container-fluid primary-color section-3 mb-4">
+        <div class="row">
+            <div class="col-12 col-md-6 order-md-2 p-0">
+                <img src="imagens/featured-drinks.jpg" alt="Drinks em destaque da Starbucks"
+                    class="img-fluid w-100">
+            </div>
+            <div
+                class="col-12 col-md-6 d-flex justify-content-center align-items-center flex-column text-center p-4">
+                <h3>Bolos para seu Café</h3>
+                <p>Transforme seu café da tarde em um momento inesquecível com nossos bolos caseiros: um pedaço de puro carinho que derrete na boca e aquece o coração.</p>
+                <a href="#cafe"><button class="btn text-dark rounded-pill border-black py-1 mb-2">Veja mais</button></a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="galery" id="aniversario">
+      <h2><span class = "pink">Bolos de Aniversário</span></h2>
         <div class="button-container">
             <button class="kilos botao" onclick="showInfo('500g')">500g</button>
             <button class="kilos botao"onclick="showInfo('1kg')">1kg</button>
@@ -293,7 +291,7 @@
         </div>
     </section>
 
-    <section class="galery" id="gallery">
+    <section class="galery" id="doces">
       <h2><span class = "pink"> Doces e Delicias</span></h2>
       <div class="container">
       
@@ -316,7 +314,7 @@
                       <img class="card__img" src="imagens/doce2.jpg" alt="">
                   </div>
                   <div class="card__content">
-                      <h3 class="card__title">Bolo na Travessa</h3>
+                      <h3 class="card__title">Bombom na Travessa</h3>
                       <p class="card__text">R$120 -Serve 15 pessoas</p>
                   </div>
               </div>
@@ -331,6 +329,37 @@
                       <p class="card__text">R$120 -Serve 15 pessoas</p>
                   </div>
               </div>
+
+              <div class="card">
+                <div class="card__image">
+                    <img class="card__img" src="imagens/doce4.jpg" alt="">
+                </div>
+                <div class="card__content">
+                    <h3 class="card__title">Pudim</h3>
+                    <p class="card__text">R$45 -Serve 8 a 10 pessoas</p>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card__image">
+                    <img class="card__img" src="imagens/doce5.jpg" alt="">
+                </div>
+                <div class="card__content">
+                    <h3 class="card__title">Bolo na Taça</h3>
+                    <p class="card__text">R$60 - Serve 3 a 6 pessoas</p>
+                </div>
+              </div>
+
+
+              <div class="card">
+                <div class="card__image">
+                    <img class="card__img" src="imagens/doce6.jpg" alt="">
+                </div>
+                <div class="card__content">
+                    <h3 class="card__title">Bolo Gelado</h3>
+                    <p class="card__text">R$60 - Serve 20 a 25 pessoas</p>
+                </div>
+              </div>
             
           </div>
       </div>
@@ -338,36 +367,42 @@
 
 
 
-    <section class="galery" id="gallery">
+    <section class="galery" id="cafe">
       <h2><span class = "pink"> Bolo Café da Tarde</span></h2>
       <div class="container">
       
           <div class="cards">
+
+
               <div class="card">
                   <div class="card__image">
-                      <img class="card__img" src="imagens/bolo1.jpg" alt="">
+                      <img class="card__img" src="imagens/cafe1.jpg" alt="">
                   </div>
                   <div class="card__content">
-                      <h3 class="card__title">Bolo de Chocolate</h3>
-                      <p class="card__text">R$320 -Serve 15 pessoas</p>
+                      <h3 class="card__title">Bolo de Cenoura</h3>
+                      <p class="card__text">R$45 - Serve 10 a 15 pessoas</p>
                   </div>
               </div>
+
+
               <div class="card">
                   <div class="card__image">
-                      <img class="card__img" src="imagens/bolo1.jpg" alt="">
+                      <img class="card__img" src="imagens/cafe2.jpg" alt="">
                   </div>
                   <div class="card__content">
-                      <h3 class="card__title">Bolo de Chocolate</h3>
-                      <p class="card__text">R$320 -Serve 15 pessoas</p>
+                      <h3 class="card__title">Bolo de Ninho</h3>
+                      <p class="card__text">R$45 - Serve 10 a 15 pessoas</p>
                   </div>
               </div>
+
+
               <div class="card">
                   <div class="card__image">
-                      <img class="card__img" src="imagens/bolo1.jpg" alt="">
+                      <img class="card__img" src="imagens/cafe3.jpg" alt="">
                   </div>
                   <div class="card__content">
-                      <h3 class="card__title">Bolo de Chocolate</h3>
-                      <p class="card__text">R$320 -Serve 15 pessoas</p>
+                      <h3 class="card__title">Bolo de Fuba</h3>
+                      <p class="card__text">R$40 -Serve 10 a 15 pessoas</p>
                   </div>
               </div>
             
@@ -395,32 +430,37 @@
    
 
 
-    <footer class="footer-starkbucks">
-      <div class="accordion d-md-none footer-accordion" id="accordionExample">
-          <div class="accordion-item border-0">
-              <h2 class="accordion-header">
-                  <button class="accordion-button text-dark" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Sobre nós
-                  </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                      <ul class="nav flex-column gap-4">
-                          <li class="nav-item"><a href="#" class="text-decoration-none text-dark-emphasis">Nossa
-                                  empresa</a></li>
-                          <li class="nav-item"><a href="#" class="text-decoration-none text-dark-emphasis">Nosso
-                                  café</a></li>
-                          <li class="nav-item"><a href="#" class="text-decoration-none text-dark-emphasis">Atendimento
-                                  ao cliente</a></li>
-                          <li class="nav-item"><a href="#" class="text-decoration-none text-dark-emphasis">Compliance
-                                  e Privacidade</a></li>
-                          <li class="nav-item"><a href="#" class="text-decoration-none text-dark-emphasis">Código de
-                                  Ética e Conduta SouthRock</a></li>
-                      </ul>
-                  </div>
-              </div>
-          </div>          
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-section">
+          <h4>Sobre nós</h4>
+          <a href="#">Nossa empresa</a>
+          <a href="#">Nosso vocação</a>
+        </div>
+        <div class="footer-section">
+          <h4>Serviços</h4>
+          <a href="#cafe">Bolos de Aniversário</a>
+          <a href="#aniversario">Bolos para Café</a>
+          <a href="#doces">Doces</a>
+        </div>
+        <div class="footer-section">
+          <h4>Contato</h4>
+          <a href="localizacao.html" target="_blank">Localização</a>
+          <a href="contato.html" target="_blank">Contato</a>
+          <a href="cupom.html " target="_blank">Cupom</a>
+        </div>
+        <div class="footer-section">
+          <h4>Redes Sociais</h4>
+          <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/sandra.boleira" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="https://wa.me/5516997677955" target="_blank"><i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2024 Sandra Boleira. Todos os direitos reservados.
+      </div>
     </footer>
 
     <script src = "js/script.js"></script>
