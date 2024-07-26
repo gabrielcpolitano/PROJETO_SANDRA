@@ -125,3 +125,10 @@ button.botao:active {
 button.recheios{
   background-image: radial-gradient(100% 100% at 100% 0, #7d0099 0, #6d048a 100%);
 }
+
+.mais{
+  display: flex;
+  justify-content: center; /* Centraliza os botões horizontalmente */
+  padding: 20px;
+  margin-bottom: 50px;
+}
