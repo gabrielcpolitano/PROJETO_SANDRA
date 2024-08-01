@@ -5,7 +5,7 @@
 
       // Define o número do cupom no elemento HTML
       const couponNumber = generateRandomNumber();
-      document.getElementById('coupon-number').innerText = "Cupom: " + couponNumber;
+      document.getElementById('coupon-number').innerText = "Cupom " + couponNumber;
 
       // Função para redirecionar o usuário ao clicar no botão
       function redirect() {
