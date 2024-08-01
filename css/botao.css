@@ -136,7 +136,7 @@ button.recheios{
 @keyframes pulsar {
   0% {
     transform: scale(1);
-    box-shadow: 0 0 0 rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 0 rgba(178, 3, 152, 0.608);
   }
   50% {
     transform: scale(1.05);
@@ -144,7 +144,7 @@ button.recheios{
   }
   100% {
     transform: scale(1);
-    box-shadow: 0 0 0 rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 0 rgba(178, 3, 152, 0.608);
   }
 }
 
