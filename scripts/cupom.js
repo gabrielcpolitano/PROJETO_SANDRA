@@ -10,7 +10,7 @@
       // Função para redirecionar o usuário ao clicar no botão
       function redirect() {
           const phoneNumber = "5516997677955";  // Número do WhatsApp com código do país e DDD
-          const message = `Olá, vim pelo site gostaria de fazer o pedido com os descontos do site !! Esse é o meu cupom *🡺${couponNumber}🡸*`;
+          const message = `Olá, vim pelo site gostaria de fazer o pedido com os descontos do site !! Esse é o meu cupom *🢡${couponNumber}🢠*`;
           const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
           window.location.href = url;
       }
