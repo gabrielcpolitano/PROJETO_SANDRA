@@ -210,6 +210,10 @@
     bottom: 0;
     font-weight: 700;
 }
+.descricao{
+  bottom: 30px;
+}
+
 .card:hover .card__text{
     transform: translateY(0);
     transition-delay: 0.5s;
